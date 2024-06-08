@@ -5,8 +5,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #09158f;
+  color: #000fff;
   padding: 20px;
   text-align: center;
 }
@@ -24,8 +24,8 @@ section {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #000666;
+  color: #000bb2;
   text-align: center;
   padding: 10px;
   position: fixed;
