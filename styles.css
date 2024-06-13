@@ -1,34 +1,59 @@
+/* Style for body */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
-header {
-  background-color: #09158f;
-  color: #000fff;
-  padding: 20px;
-  text-align: center;
+/* Style for header */
+h1 {
+    text-align: center;
+    color: #333;
 }
 
-h1, h2 {
-  margin: 0;
+/* Style for list */
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-main {
-  padding: 20px;
+/* Style for list items */
+li {
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-section {
-  margin-bottom: 30px;
+/* Style for form */
+form {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-footer {
-  background-color: #000666;
-  color: #000bb2;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+/* Style for text input */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+    background-color: #555;
 }
