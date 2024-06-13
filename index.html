@@ -1,131 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>arema.eth</title>
-<link rel="icon" type="image/svg+xml" href="/bitcoin.svg" />
-<link rel="stylesheet" href="styles.css">
-<style>
-/* CSS */
-body {
-  font-family: Helvetica, Roboto; /* Contoh font family Arial */
-  margin: 0;
-  padding: 0;
-  background-color: #a9a9a9;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.header {
-  background-color: #0000ff; /* warna header */
-  color: #fff; /* warna tulisan fff berwarna putih */
-  padding: 20px;
-  text-align: center;
-}
-
-.header h1 {
-  margin: 0;
-}
-
-.navbar {
-  background-color: #6666ff; /* warna navbar berwarna biru muda */
-  padding: 10px;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.navbar ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.navbar ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar ul li a:hover {
-  color: #ffd700;
-}
-
-.content {
-  background-color: #fff;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.footer {
-  background-color: #6666ff;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
-
-.footer p {
-  margin: 0;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journal</title>
 </head>
 <body>
-
-<div class="container">
-  <div class="header">
-    <h1>Analogi Trading dengan Sepak Bola</h1>
-  </div>
-
-  <div class="navbar">
+    <h1>My Journal</h1>
     <ul>
-      <li><a href="https://peluang.eth.limo/gitblob">Beranda</a></li>
-      <li><a href="https://peluang.eth.limo/tabel">Tabel</a></li>
-      <li><a href="https://peluang.eth.limo/">1BitcoinX1</a></li>
+        {% for entry in entries %}
+            <li>{{ entry }}</li>
+        {% endfor %}
     </ul>
-  </div>
-
-  <div class="content">
-    <h2>Pendahuluan</h2>
-    <p>Di dunia perdagangan, ada konsep-konsep yang dapat diilustrasikan melalui analogi dengan permainan sepak bola. Mari kita jelajahi beberapa konsep tersebut dan bagaimana mereka berlaku di pasar uang.</p>
-    <h2>Konsep Penawaran dan Permintaan</h2>
-    <p>Penawaran dan permintaan di pasar uang dapat dibandingkan dengan penawaran dan permintaan pemain sepak bola. Saat ada pemain yang sangat diinginkan oleh banyak klub (permintaan tinggi), nilai (harga) pemain tersebut akan meningkat. Sebaliknya, jika seorang pemain kurang diminati (permintaan rendah), nilai pemain tersebut akan turun.</p>
-    <h2>Kurs Valuta Asing</h2>
-    <p>Kurs valuta asing dapat diibaratkan sebagai perbandingan antara nilai dua tim sepak bola yang berbeda. Misalnya, jika tim A dianggap lebih kuat daripada tim B, maka kurs pertukaran antara mata uang tim A dengan tim B akan mencerminkan kekuatan relatif di antara keduanya.</p>
-    <h2>Analogi yang digunakan di sini untuk menjelaskan konsep-konsep pasar uang melalui permainan sepak bola sangatlah tepat. Mari saya jelaskan lebih lanjut:</h2>
-    <h3>Konsep Penawaran dan Permintaan</h3>
-    <p>Dalam perdagangan, penawaran dan permintaan mencerminkan dinamika antara jumlah barang atau layanan yang tersedia (penawaran) dan jumlah yang diminta oleh konsumen (permintaan). Dalam analogi sepak bola, hal ini mirip dengan ketika seorang pemain sepak bola sangat diinginkan oleh banyak klub, permintaan untuknya akan tinggi dan harganya akan meningkat. Sebaliknya, jika seorang pemain kurang diminati, permintaannya akan rendah dan nilai pemain tersebut akan turun.</p>
-    <h3>Kurs Valuta Asing</h3>
-    <p>Kurs valuta asing adalah perbandingan antara nilai dua mata uang yang berbeda. Analogi dengan permainan sepak bola adalah ketika dua tim berbeda membandingkan kekuatan relatif mereka. Misalnya, jika tim A dianggap lebih kuat daripada tim B, maka kurs pertukaran antara mata uang tim A dengan tim B akan mencerminkan kekuatan relatif di antara keduanya. Ini menunjukkan bagaimana faktor-faktor seperti performa ekonomi, stabilitas politik, dan ekspektasi pasar dapat memengaruhi nilai mata uang suatu negara relatif terhadap negara lainnya, mirip dengan bagaimana penilaian kekuatan tim sepak bola dapat memengaruhi kurs pertukaran valuta asing.</p>
-    <h3>Strategi dan Taktik</h3>
-    <p>Seperti dalam sepak bola, trading juga memerlukan strategi dan taktik. Setiap pemain atau trader harus memiliki rencana yang terperinci tentang bagaimana mereka akan bermain atau melakukan trading dalam situasi tertentu. Ini termasuk mempertimbangkan risiko, menganalisis tren pasar, dan membuat keputusan yang tepat pada waktu yang tepat.</p>
-    <h3>Tim dan Individu</h3>
-    <p>Seperti dalam tim sepak bola, ada pemain individual dan elemen tim dalam trading. Beberapa trader memilih untuk beroperasi secara independen, seperti pemain yang bermain di lapangan tanpa banyak kerja sama tim. Namun, ada juga trader yang bekerja dalam tim atau komunitas, berbagi pengetahuan dan strategi dengan rekan-rekan mereka.</p>
-    <h3>Manajemen Risiko</h3>
-    <p>Manajemen risiko adalah bagian penting dari kedua aktivitas tersebut. Seperti dalam sepak bola, di mana tim harus mempertimbangkan risiko cedera atau kekalahan, trader juga harus mempertimbangkan risiko finansial. Ini termasuk memutuskan berapa banyak modal yang akan diinvestasikan dalam satu perdagangan, menetapkan stop loss, dan membatasi eksposur terhadap pasar tertentu.</p>
-    <h3>Analisis dan Penelitian</h3>
-    <p>Seperti pelatih dan pemain sepak bola yang menganalisis rekaman pertandingan dan melakukan penelitian tentang lawan-lawannya, trader juga melakukan analisis pasar dan penelitian fundamental serta teknis untuk membuat keputusan investasi yang lebih baik.</p>
-    <h3>Pasar dan Tren</h3>
-    <p>Seperti tim sepak bola yang harus mengikuti tren dan perubahan dalam permainan, trader juga harus memantau tren pasar dan beradaptasi dengan perubahan yang terjadi di pasar keuangan.</p>
-    <h3>Kesabaran dan Disiplin</h3>
-    <p>Baik dalam trading maupun sepak bola, kesabaran dan disiplin sangat penting. Trader harus belajar untuk menunggu kesempatan yang tepat dan tidak terpancing oleh emosi, mirip dengan pemain sepak bola yang harus menjaga konsentrasi dan tidak terbawa emosi saat berada di lapangan.</p>
-    
-    <!-- Tombol Obrolan WhatsApp -->
-    <a href="https://wa.me/628999587888" target="_blank">
-      <button style="background-color: #25d366; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Hubungi Kami melalui WhatsApp</button>
-    </a>
-  </div>
-
-  <div class="footer">
-    <p>Hak Cipta &copy; 2024 arema.eth. All rights reserved, but I built it with the help of ChatGPT, GitHub etc.</p>
-  </div>
-</div>
-
+    <form action="/add_entry" method="post">
+        <input type="text" name="entry" placeholder="Masukkan entri baru">
+        <button type="submit">Tambah Entri</button>
+    </form>
 </body>
 </html>
