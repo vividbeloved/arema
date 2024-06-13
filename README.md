@@ -1,1 +1,1 @@
-# Perdagangan di pasar uang dengan analogi permainan Sepak Bola
+# Analogi Trading dengan permainan Sepak Bola
