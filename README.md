@@ -1,1 +1,3 @@
-# Analogi Trading dengan permainan Sepak Bola
+# Menjelaskan Trading Dengan Analogi Sepak Bola ⚽️
+
+## Pendahuluan
