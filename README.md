@@ -8,3 +8,4 @@ Seseorang yang melakukan transaksi dan tindakan order buy dan sell di pasar keua
 
     امشِ ولا تلتفت يمينًا ويسارًا حتى ينصرك الله
 
+Mengenal MTabrani Metode Tinggi atas bawah rendah awal nilai inti
